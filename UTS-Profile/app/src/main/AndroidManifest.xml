@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.toshiba_97.uts_profile">
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="DATABASE"
+            android:value="profile.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="5" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.example.toshiba_97.uts_profile" />
+
+        <activity android:name=".DaftarProfile">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TambahProfile" />
+        <activity android:name=".DetailProfile" />
+        <activity android:name=".DaftarPendidikan" />
+        <activity android:name=".DetailPendidikan" />
+        <activity android:name=".TambahPendidikan" />
+        <activity android:name=".DaftarKeluarga" />
+        <activity android:name=".DetailKeluarga" />
+        <activity android:name=".TambahKeluarga" />
+        <activity android:name=".DaftarKegiatan" />
+        <activity android:name=".DetailKegiatan" />
+        <activity android:name=".TambahKegiatan"></activity>
+    </application>
+
+</manifest>

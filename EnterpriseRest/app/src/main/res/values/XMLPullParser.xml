@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml>
+        <item>
+            <nim>TI102131</nim>
+            <nama>DESI HANDAYANI</nama>
+            <id_jurusan>2</id_jurusan>
+            <alamat>RANGKASBITUNG</alamat>
+        </item>
+        <item>
+            <nim>TI1021310</nim>
+            <nama>Desi</nama>
+            <id_jurusan>1</id_jurusan>
+            <alamat>RANGKASBITUNG</alamat>
+        </item>
+        <item>
+            <nim>TI102132</nim>
+            <nama>NURIS AKBAR</nama>
+            <id_jurusan>1</id_jurusan>
+            <alamat>aceh</alamat>
+        </item>
+        <item>
+            <nim>TI102133</nim>
+            <nama>MUHAMMAD HAFIDZ MUZAKI</nama>
+            <id_jurusan>1</id_jurusan>
+            <alamat>CIMAHI</alamat>
+        </item>
+        <item>
+            <nim>TI102134</nim>
+            <nama>IRMA MAULIANA</nama>
+            <id_jurusan>1</id_jurusan>
+            <alamat>ACEH TAMIANG</alamat>
+        </item>
+        <item>
+            <nim>TI102135</nim>
+            <nama>Sholeh</nama>
+            <id_jurusan>2</id_jurusan>
+            <alamat>RANGKASBITUNG</alamat>
+        </item>
+    </xml>
+
+</resources>
